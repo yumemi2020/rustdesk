@@ -2,8 +2,8 @@ lazy_static::lazy_static! {
 pub static ref T: std::collections::HashMap<&'static str, &'static str> =
     [
         ("Status", "狀態"),
-        ("Your Desktop", "您的桌面"),
-        ("desk_tip", "您可以透過此 ID 及密碼存取您的桌面"),
+        ("Your Desktop", "遠端協助工具"),
+        ("desk_tip", "提供以下ID及密碼即可遠端協助維護電腦"),
         ("Password", "密碼"),
         ("Ready", "就緒"),
         ("Established", "已建立"),
@@ -44,7 +44,7 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("id_change_tip", "僅能使用以下字元：a-z、A-Z、0-9、 - (dash)、_ (底線)。第一個字元必須為 a-z 或 A-Z。長度介於 6 到 16 之間。"),
         ("Website", "網站"),
         ("About", "關於"),
-        ("Slogan_tip", "在這個混沌的世界中用心製作！"),
+        ("Slogan_tip", "小嘉遠端維護專用客製版本"),
         ("Privacy Statement", "隱私權宣告"),
         ("Mute", "靜音"),
         ("Build Date", "建構日期"),
